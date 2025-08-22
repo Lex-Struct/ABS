@@ -436,25 +436,50 @@
     </style>
 </head>
 <body>
-    <!-- Header -->
-    <header>
-        <div class="container header-container">
-            <a href="#" class="logo">
-    <img src="https://i.postimg.cc/RV74kD2V/IMG-20230521-WA0003-preview-rev-1-1.png" alt="Amad Business Services" style="height:70px;">
-</a>
-            
-            <button class="mobile-menu-btn">
-                <i class="fas fa-bars"></i>
-            </button>
-            
-            <ul class="nav-menu">
-                <li><a href="#">Accueil</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#about">À propos</a></li>
-                <li><a href="#contact">Contact</a></li>
-                <li><a href="#contact" class="btn">Demander un devis</a></li>
-            </ul>
-        </div>
+        <!-- HEADER -->
+<header>
+  <a href="#" class="logo">
+      <img src="images/logo.png" alt="Amad Business Services">
+  </a>
+
+  <nav class="nav">
+      <a href="#formations">Formations</a>
+      <a href="#ebooks">Ebooks</a>
+      <a href="#blog">Blog</a>
+      <a href="#about">À propos</a>
+      <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+<!-- STYLE DU HEADER -->
+<style>
+  header {
+      height: 80px; /* Hauteur fixe de la barre */
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      background: #0a1f44; /* couleur de fond du header */
+  }
+
+  .logo img {
+      max-height: 70px; /* Taille du logo (change la valeur si tu veux + grand) */
+      object-fit: contain;
+  }
+
+  .nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 20px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+  }
+
+  .nav a:hover {
+      color: #00aaff;
+  }
+</style>
+
     </header>
 
     <!-- Hero Section -->
